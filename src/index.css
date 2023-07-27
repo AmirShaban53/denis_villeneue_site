@@ -12,9 +12,47 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.hero{
+  background-position: center;
+  background-size: cover;
+}
+
 .d{
   outline: 1px solid red;
 }
 
+.animate{
+  animation: scaleup 30s ease-in-out infinite;
+  object-position: bottom;
+}
+
+@keyframes scaleup {
+  0% {
+    transform: scale(1); /* Starting scale (normal size) */
+  }
+  50% {
+    transform: scale(1.1); /* Zoomed in */
+  }
+  100% {
+    transform: scale(1); /* Back to normal size */
+  }
+}
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+.marquee-content {
+  white-space: nowrap;
+  animation: marqueeAnimation 10s linear infinite;
+}
+@keyframes marqueeAnimation {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 
 
