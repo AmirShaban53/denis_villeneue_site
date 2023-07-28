@@ -38,21 +38,7 @@
   }
 }
 
-.marquee-container {
-  width: 100%;
-  overflow: hidden;
-}
-.marquee-content {
-  white-space: nowrap;
-  animation: marqueeAnimation 10s linear infinite;
-}
-@keyframes marqueeAnimation {
-  from {
-    transform: translateX(0%);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
+
+
 
 
