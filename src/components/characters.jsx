@@ -11,7 +11,7 @@ const Characters = () => {
 //     }
 //   },[])
   return (
-    <div className="bg-zinc-900 py-16">
+    <div className="py-16">
       <Container>
         <div>
           <p>Characters</p>

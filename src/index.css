@@ -12,18 +12,40 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.hero{
+.hero {
   background-position: center;
   background-size: cover;
 }
 
-.d{
+.d {
   outline: 1px solid red;
 }
 
-.animate{
+.animate {
   animation: scaleup 30s ease-in-out infinite;
   object-position: bottom;
+}
+
+.process-card::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 0.5rem;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 150ms;
+  /* background: red; */
+  z-index: -5;
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.07),
+    transparent 40%
+  );
+}
+.process-card:hover:before {
+  opacity: 1;
 }
 
 @keyframes scaleup {
@@ -37,8 +59,3 @@
     transform: scale(1); /* Back to normal size */
   }
 }
-
-
-
-
-

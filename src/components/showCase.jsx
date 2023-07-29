@@ -3,7 +3,7 @@ import { ContainerFluid } from "./layout";
 
 const ShowCase = () => {
   return (
-    <div className="py-16 bg-zinc-900">
+    <div className="py-16">
       <ContainerFluid>
         <div>
           <p>Showcase</p>

@@ -3,7 +3,7 @@ import { Container } from "./layout";
 
 const History = () => {
   return (
-    <div className="bg-zinc-900 py-16">
+    <div className="py-16">
       <Container>
         <div className="grid grid-cols-12">
           <div className="col-span-4">
