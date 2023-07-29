@@ -10,7 +10,7 @@ import NewFilm from "./components/newFilm";
 function App() {
 
   return (
-    <div className="text-white bg-zinc-900 ">
+    <div className="text-zinc-100 bg-zinc-900 ">
       <Hero/>
       <History/>
       <ShowCase/>
