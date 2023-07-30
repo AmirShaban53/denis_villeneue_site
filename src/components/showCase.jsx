@@ -35,7 +35,7 @@ const CaseCard = ({ src, title }) => {
     videoRef.current.currentTime = 0; // Reset video to the beginning when stopped
   };
   return (
-    <div className="col-span-4 overflow-hidden relative group cursor-pointer">
+    <div className="col-span-12 md:col-span-4 overflow-hidden relative group cursor-pointer">
       <div className="hidden pointer-events-none group-hover:flex justify-center items-center absolute h-full w-full top-0 left-0 z-40 bg-black/40 duration-700 transition-all">
         <p className="capitalize">{title}</p>
       </div>

@@ -1,142 +1,74 @@
 [
-    {
-      "name": "Amy Adams",
-      "movie": "Arrival",
-      "wiki": "https://en.wikipedia.org/wiki/Amy_Adams"
-    },
-    {
-      "name": "Ryan Gosling",
-      "movie": "Blade Runner 2049",
-      "wiki": "https://en.wikipedia.org/wiki/Ryan_Gosling"
-    },
-    {
-      "name": "Emily Blunt",
-      "movie": "Sicario",
-      "wiki": "https://en.wikipedia.org/wiki/Emily_Blunt"
-    },
-    {
-      "name": "Hugh Jackman",
-      "movie": "Prisoners",
-      "wiki": "https://en.wikipedia.org/wiki/Hugh_Jackman"
-    },
-    {
-      "name": "Jake Gyllenhaal",
-      "movie": "Enemy",
-      "wiki": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
-    },
-    {
-      "name": "Isabelle Adjani",
-      "movie": "Polytechnique",
-      "wiki": "https://en.wikipedia.org/wiki/Isabelle_Adjani"
-    },
-    {
-      "name": "Lubna Azabal",
-      "movie": "Incendies",
-      "wiki": "https://en.wikipedia.org/wiki/Lubna_Azabal"
-    },
-    {
-      "name": "Harrison Ford",
-      "movie": "Blade Runner 2049",
-      "wiki": "https://en.wikipedia.org/wiki/Harrison_Ford"
-    },
-    {
-      "name": "Robin Wright",
-      "movie": "Blade Runner 2049",
-      "wiki": "https://en.wikipedia.org/wiki/Robin_Wright"
-    },
-    {
-      "name": "Josh Brolin",
-      "movie": "Sicario",
-      "wiki": "https://en.wikipedia.org/wiki/Josh_Brolin"
-    },
-    {
-      "name": "Benicio Del Toro",
-      "movie": "Sicario",
-      "wiki": "https://en.wikipedia.org/wiki/Benicio_Del_Toro"
-    },
-    {
-      "name": "Jared Leto",
-      "movie": "Blade Runner 2049",
-      "wiki": "https://en.wikipedia.org/wiki/Jared_Leto"
-    },
-    {
-      "name": "Timothée Chalamet",
-      "movie": "Dune",
-      "wiki": "https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet"
-    },
-    {
-      "name": "Zendaya",
-      "movie": "Dune",
-      "wiki": "https://en.wikipedia.org/wiki/Zendaya"
-    },
-    {
-      "name": "Rebecca Ferguson",
-      "movie": "Dune",
-      "wiki": "https://en.wikipedia.org/wiki/Rebecca_Ferguson"
-    },
-    {
-      "name": "Oscar Isaac",
-      "movie": "Dune",
-      "wiki": "https://en.wikipedia.org/wiki/Oscar_Isaac"
-    },
-    {
-      "name": "Jessica Chastain",
-      "movie": "The Martian",
-      "wiki": "https://en.wikipedia.org/wiki/Jessica_Chastain"
-    },
-    {
-      "name": "Jeremy Renner",
-      "movie": "Arrival",
-      "wiki": "https://en.wikipedia.org/wiki/Jeremy_Renner"
-    },
-    {
-      "name": "Forest Whitaker",
-      "movie": "Enemy",
-      "wiki": "https://en.wikipedia.org/wiki/Forest_Whitaker"
-    },
-    {
-      "name": "Mark Wahlberg",
-      "movie": "The Lovely Bones",
-      "wiki": "https://en.wikipedia.org/wiki/Mark_Wahlberg"
-    },
-    {
-      "name": "Paul Dano",
-      "movie": "Prisoners",
-      "wiki": "https://en.wikipedia.org/wiki/Paul_Dano"
-    },
-    {
-      "name": "Mélanie Laurent",
-      "movie": "Enemy",
-      "wiki": "https://en.wikipedia.org/wiki/M%C3%A9lanie_Laurent"
-    },
-    {
-      "name": "Sarah Gadon",
-      "movie": "Enemy",
-      "wiki": "https://en.wikipedia.org/wiki/Sarah_Gadon"
-    },
-    {
-      "name": "Alex Hassell",
-      "movie": "Enemy",
-      "wiki": "https://en.wikipedia.org/wiki/Alex_Hassell"
-    },
-    {
-      "name": "Lisa Gay Hamilton",
-      "movie": "Prisoners",
-      "wiki": "https://en.wikipedia.org/wiki/Lisa_Gay_Hamilton"
-    },
-    {
-      "name": "Barry Pepper",
-      "movie": "The Green Mile",
-      "wiki": "https://en.wikipedia.org/wiki/Barry_Pepper"
-    },
-    {
-      "name": "Taylor Kitsch",
-      "movie": "Lone Survivor",
-      "wiki": "https://en.wikipedia.org/wiki/Taylor_Kitsch"
-    },
-    {
-      "name": "Denis Ménochet",
-      "movie": "Blade Runner 2049",
-      "wiki": "https://en.wikipedia.org/wiki/Denis_M%C3%A9nochet"
-    }
-  ]
+  {
+    "name": "Amy Adams",
+    "movie": "Arrival",
+    "image": "/images/actors/amy-adams-hesitant-to-take-big-eyes-role-16.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Amy_Adams"
+  },
+  {
+    "name": "Ryan Gosling",
+    "movie": "Blade Runner 2049",
+    "image": "/images/actors/ryan-gosling-drive-photocall-02.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Ryan_Gosling"
+  },
+  {
+    "name": "Oscar Isaac",
+    "movie": "Dune",
+    "image": "/images/actors/oscar-isaac-moon-knight-weird-decisions-03.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Oscar_Isaac"
+  },
+  {
+    "name": "Hugh Jackman",
+    "movie": "Prisoners",
+    "image": "/images/actors/hugh-jackman-brit-awards-2019-07.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Hugh_Jackman"
+  },
+  {
+    "name": "Jake Gyllenhaal",
+    "movie": "Enemy",
+    "image": "/images/actors/jake-gyllenhaal-maggie-gyllenhaal-venice-film-festival-premiere-23.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
+  },
+  {
+    "name": "Harrison Ford",
+    "movie": "Blade Runner 2049",
+    "image": "/images/actors/Harrison_Ford_by_Gage_Skidmore_3.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Harrison_Ford"
+  },
+  {
+    "name": "Zendaya",
+    "movie": "Dune",
+    "image": "/images/actors/zendaya-cfda-photos-02.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Zendaya"
+  },
+  {
+    "name": "Timothée Chalamet",
+    "movie": "Dune",
+    "image": "/images/actors/timothee-chalamet-first-date-hunger-games-05.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Timoth%C3%A9e_Chalamet"
+  },
+  {
+    "name": "Josh Brolin",
+    "movie": "Sicario",
+    "image": "/images/actors/kate-winslet-josh-brolin-tiff-portraits-13.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Josh_Brolin"
+  },
+  {
+    "name": "Benicio Del Toro",
+    "movie": "Sicario",
+    "image": "/images/actors/benicio-del-toro-isabela-moner-josh-brolin-sicario-photo-call-09.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Benicio_Del_Toro"
+  },
+  {
+    "name": "Jared Leto",
+    "movie": "Blade Runner 2049",
+    "image": "/images/actors/jared-leto-white-suit-pink-feathered-sleeves-lacma-gala-07.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Jared_Leto"
+  },
+  {
+    "name": "Rebecca Ferguson",
+    "movie": "Dune",
+    "image": "/images/actors/Rebecca Ferguson.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Rebecca_Ferguson"
+  }
+]

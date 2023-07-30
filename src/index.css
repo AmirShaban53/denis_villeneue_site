@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
 .hero {
   background-position: center;
   background-size: cover;
@@ -28,6 +18,11 @@
 
 .process-card::before {
   content: "";
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.07),
+    transparent 40%
+  );
   height: 100%;
   width: 100%;
   position: absolute;
@@ -37,17 +32,33 @@
   opacity: 0;
   transition: opacity 150ms;
   /* background: red; */
-  z-index: -5;
+  z-index: 5;
+}
+
+.card-border {
   background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.07),
+    400px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.5),
     transparent 40%
   );
+
+  position: absolute;
+  border-radius: 0.5rem;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
+
 .process-card:hover:before {
   opacity: 1;
 }
 
+.actor-container {
+  /* height: 60px; */
+  height: calc(var(--child-h) * var(--rows) * 3);
+}
 @keyframes scaleup {
   0% {
     transform: scale(1); /* Starting scale (normal size) */
@@ -57,5 +68,22 @@
   }
   100% {
     transform: scale(1); /* Back to normal size */
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:text-left {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .actor-container {
+    /* height: 60px; */
+    height: calc(var(--child-h) * (var(--rows) + 1));
+  }
+}
+@media (min-width: 1024px) {
+  .lg\:text-left {
+    text-align: left;
   }
 }

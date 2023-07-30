@@ -9,10 +9,10 @@ const NewFilm = () => {
           <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div className="grid grid-cols-12">
-          <div className="col-span-6 d ">
+          <div className="col-span-12 md:col-span-6 d ">
             <video className="" controls src="/video.mp4" type="video/mp4" />
           </div>
-          <div className="col-span-6">
+          <div className="col-span-12 md:col-span-6">
             <p>title of new movie</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
