@@ -34,11 +34,17 @@ const Card = ({ title, content, image }) => {
 
   return (
     <div className="relative w-full mx-auto mb-12 md:mb-56">
-      <div className="md:w-2/3 z-20">
+      <div className="md:w-2/3 z-30 relative group">
         <img
           src={image ? image : "/images/process/collab.jpg"}
-          className="duration-700 transition-all h-full object-cover relative z-10"
+          className="duration-700 transition-all h-full object-cover rounded-lg"
         />
+        <div className="absolute top-0 -z-30 mix-blend-lighten blur-xl">
+          <img
+            src={image ? image : "/images/process/collab.jpg"}
+            className=" duration-1000 transition-all h-full object-cover -z-50"
+          />
+        </div>
       </div>
       <div
         ref={cardRef}

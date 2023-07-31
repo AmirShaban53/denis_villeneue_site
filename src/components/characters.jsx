@@ -3,13 +3,9 @@ import { Container, ContainerFluid } from "./layout";
 import actorsData from "../../actorsData.json";
 const Characters = () => {
   const [childHeight, setChildHeight] = useState(0);
-  const [viewRows, setViewRows] = useState(2);
+  const [viewRows, setViewRows] = useState(1);
 
-  //   useEffect(()=>{
-  //     if(parentRef.current && childRef.current) {
-
-  //     }
-  //   },[])
+  
 
   const handleSetHeight = (height) => {
     setChildHeight(height);

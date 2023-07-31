@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Blade Runner 2049",
+    "images": ["/images/movies/blade.jpg"],
+    "video": "/videos/blade runner.mp4",
+    "year": 2017,
+    "plot": "Blade Runner 2049 is a visually stunning sci-fi sequel to the 1982 classic Blade Runner. Set thirty years after the events of the original film, the story follows K, played by Ryan Gosling, a new blade runner who unearths a long-buried secret that has the potential to plunge society into chaos. K embarks on a quest to find Rick Deckard, portrayed by Harrison Ford, a former blade runner who has been missing for decades. Along the way, K grapples with questions of identity, memory, and the nature of humanity.",
+    "rates": {
+      "IMDb": 8.0,
+      "Rotten Tomatoes": 88,
+      "Metacritic": 81
+    }
+  },
+
+  {
+    "title": "Dune",
+    "images": ["/images/movies/dune.jpg"],
+    "video": "/videos/dune.mp4",
+    "year": 2021,
+    "plot": "Dune is an epic sci-fi film based on Frank Herbert's novel of the same name. The story is set in a distant future where noble families control planets, and resources are abundant on the desert planet Arrakis. Paul Atreides, portrayed by Timothée Chalamet, is the young scion of House Atreides, sent to Arrakis with his family to oversee its extraction of a valuable resource known as the spice melange. As Paul's destiny unfolds, he finds himself at the center of a prophesied transformation that could shape the future of the universe.",
+    "rates": {
+      "IMDb": 7.9,
+      "Rotten Tomatoes": 82,
+      "Metacritic": 74
+    }
+  },
+  {
+    "title": "Prisoners",
+    "images": ["/images/movies/prisoners.png"],
+    "video": "/videos/arrival.mp4",
+    "year": 2013,
+    "plot": "Prisoners is a tense crime thriller that follows the harrowing story of Keller Dover, played by Hugh Jackman, and Franklin Birch, played by Terrence Howard, whose daughters go missing on Thanksgiving. As the police, led by Detective Loki (Jake Gyllenhaal), investigate the case, the fathers become increasingly desperate and take matters into their own hands. The film delves into themes of morality, justice, and the lengths a person will go to protect their family.",
+    "rates": {
+      "IMDb": 8.1,
+      "Rotten Tomatoes": 81,
+      "Metacritic": 74
+    }
+  },
+  {
+    "title": "Arrival",
+    "images": ["/images/movies/arrival.jpg"],
+    "video": "/videos/arrival.mp4",
+    "year": 2016,
+    "plot": "In Arrival, Louise Banks, portrayed by Amy Adams, is a linguistics professor recruited by the military to communicate with extraterrestrial visitors who have landed in twelve locations worldwide. As tensions rise among nations, Louise races against time to decipher the aliens' language and intentions. In doing so, she unlocks a mind-bending revelation that challenges her understanding of time and profoundly impacts the fate of humanity.",
+    "rates": {
+      "IMDb": 7.9,
+      "Rotten Tomatoes": 94,
+      "Metacritic": 81
+    }
+  },
+  {
+    "title": "Enemy",
+    "images": ["/images/movies/enemy.jpg"],
+    "video": "/videos/arrival.mp4",
+    "year": 2013,
+    "plot": "Enemy is a psychological thriller centered around Adam Bell, played by Jake Gyllenhaal, a college professor who discovers a doppelgänger of himself in a movie. Intrigued by the possibility of another identical person, he becomes obsessed with finding him. As Adam delves deeper into the mystery, the line between reality and illusion blurs, leading to an enigmatic and unsettling conclusion.",
+    "rates": {
+      "IMDb": 6.9,
+      "Rotten Tomatoes": 72,
+      "Metacritic": 61
+    }
+  },
+  {
+    "title": "Sicario",
+    "images": ["/images/movies/sicario.jpg"],
+    "video": "/videos/arrival.mp4",
+    "year": 2015,
+    "plot": "In Sicario, Emily Blunt stars as FBI agent Kate Macer, who joins a government task force led by the mysterious Matt Graver, played by Josh Brolin. The task force aims to combat the escalating drug war on the US-Mexico border. As Kate becomes embroiled in the dark and morally ambiguous operations, she grapples with her principles and must confront the harsh realities of the drug trade.",
+    "rates": {
+      "IMDb": 7.6,
+      "Rotten Tomatoes": 93,
+      "Metacritic": 82
+    }
+  }
+]

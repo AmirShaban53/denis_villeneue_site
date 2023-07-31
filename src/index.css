@@ -7,6 +7,10 @@
   background-size: cover;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 .d {
   outline: 1px solid red;
 }
