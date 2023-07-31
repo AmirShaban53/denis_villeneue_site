@@ -8,12 +8,13 @@ const MovieModal = ({
   rates,
   images,
   year,
+  plot,
   handleCloseModal,
 }) => {
   return (
     <div className="fixed w-full h-screen top-0 left-0 z-40 bg-black/50 overflow-hidden pointer-events-none">
       <div className="flex justify-center items-center h-full pointer-events-auto">
-        <div className="bg-zinc-800 h-fit border border-zinc-700 overflow-hidden w-1/2 rounded-xl mb-6 max-h-[90vh] overflow-y-auto no-scrollbar relative">
+        <div className="bg-zinc-800 h-fit border border-zinc-700 overflow-hidden mx-2 md:w-1/2 rounded-xl mb-6 max-h-[90vh] overflow-y-auto no-scrollbar relative">
           <button
             onClick={handleCloseModal}
             className="absolute top-0 right-0 z-50 font-bold p-4 text-xl cursor-pointer"
@@ -36,11 +37,8 @@ const MovieModal = ({
 
             <div>
               <p className="font-bold mb-1 text-xl uppercase">plot</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis velit corporis ducimus saepe atque dignissimos eveniet
-                quo cum voluptatibus! Qui ut saepe ipsam ab. Delectus reiciendis
-                assumenda quam commodi facere!
+              <p className="text-zinc-400">
+                {plot}
               </p>
             </div>
           </div>

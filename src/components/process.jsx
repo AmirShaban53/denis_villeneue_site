@@ -1,6 +1,7 @@
 import { FC, useRef, useState } from "react";
 import { Container } from "./layout";
-
+import { motion } from "framer-motion";
+import { cardImage } from "../assets/animation";
 const Process = () => {
   return (
     <div className="py-16">
@@ -34,7 +35,13 @@ const Card = ({ title, content, image }) => {
 
   return (
     <div className="relative w-full mx-auto mb-12 md:mb-56">
-      <div className="md:w-2/3 z-30 relative group">
+      <motion.div
+        variants={cardImage}
+        initial="initial"
+        whileInView="animate"
+        viewport={{ once: false, amount: "all" }}
+        className="md:w-2/3 z-30 relative group"
+      >
         <img
           src={image ? image : "/images/process/collab.jpg"}
           className="duration-700 transition-all h-full object-cover rounded-lg"
@@ -45,7 +52,7 @@ const Card = ({ title, content, image }) => {
             className=" duration-1000 transition-all h-full object-cover -z-50"
           />
         </div>
-      </div>
+      </motion.div>
       <div
         ref={cardRef}
         onMouseMove={(e) => handleMouseMove(e)}
@@ -61,7 +68,7 @@ const Card = ({ title, content, image }) => {
           <p className="text-zinc-400">{content}</p>
         </div>
       </div>
-      <div className="hidden absolute opacity-5 pb-4 whitespace-nowrap text-ellipsis truncate w-1/2">
+      <div className="hidden md:block absolute opacity-5 pb-4 whitespace-nowrap text-ellipsis truncate w-1/2">
         <p className="text-6xl capitalize font-bold tracking-widest">{title}</p>
       </div>
     </div>
