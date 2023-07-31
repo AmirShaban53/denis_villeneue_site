@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute top-0 h-full -z-10">
         <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-zinc-900 to-transparent to-80% z-10"></div>
         <img
-          src="/images/bg.jpg"
+          src="/images/bg.webp"
           className="animate h-full md:h-auto object-bottom  object-cover"
         />
       </div>

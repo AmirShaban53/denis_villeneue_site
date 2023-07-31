@@ -1,3 +1,4 @@
+import { Download } from "@mui/icons-material";
 import React from "react";
 
 const ModalHeader = ({ title, year, link }) => {
@@ -9,8 +10,9 @@ const ModalHeader = ({ title, year, link }) => {
       </div>
       <div>
         <a href={link}>
-          <button className="d p-2 px-4 font-bold bg-red-500 rounded-lg shadow-lg shadow-red-500/80">
-            Download
+          <button className="d p-2 px-4 font-bold bg-red-500 rounded-lg shadow-lg shadow-red-500/80 flex">
+            <Download />
+            <span className="text-sm md:text-base">Download</span>
           </button>
         </a>
       </div>

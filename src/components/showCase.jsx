@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { ContainerFluid } from "./layout";
+import { ContainerFluid, Container } from "./layout";
 import MovieModal from "./movieModal";
 import FilmData from "../../filmData.json";
 
@@ -29,9 +29,15 @@ const ShowCase = () => {
   return (
     <div className="py-16">
       <ContainerFluid>
-        <div>
-          <p>Showcase</p>
+        <Container>
+        <div className="mb-6">
+          <p className="text-3xl font-bold">
+            {" "}
+            Show<span className="text-rose-600">case</span>
+          </p>
+          <p className="text-zinc-500 text-sm">Have a lot at some of Villeneue's best work.</p>
         </div>
+        </Container>
 
         <div className="grid grid-cols-12">
           {films.map((film, index) => {
