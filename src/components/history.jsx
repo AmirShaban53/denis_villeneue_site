@@ -9,7 +9,7 @@ const History = () => {
           <div className="col-span-12 md:col-span-6 ">
             <video
               controls
-              src="/videos/intro.mp4"
+              src="https://res.cloudinary.com/dfhaybv2w/video/upload/v1690887321/denis%20villeneue/intro_qyz0ut.mp4"
               className="h-full object-contain"
             />
           </div>

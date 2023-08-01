@@ -33,7 +33,8 @@ function App() {
       <ShowCase />
       <Process />
       <Characters />
-      <div className="py-16">
+      <div className="py-16 relative backdrop-blur-lg">
+        
         <p className="text-center">
           <blockquote className="text-xl md:text-3xl font-bold text-zinc-700 md:w-1/3 mx-auto text-center mb-3">
             "I'm not someone that loves dialogue - I love the movement, Action.
