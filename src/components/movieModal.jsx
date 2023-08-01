@@ -29,7 +29,6 @@ const MovieModal = ({
               className="top-0 left-0 group-hover:z-20 w-full object-contain relative"
               src={video ? video : "/video.mp4"}
               poster={images[0]}
-              muted
             />
           </div>
           <div className="p-6">

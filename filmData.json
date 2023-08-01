@@ -30,7 +30,7 @@
     "link": "https://yts.mx/movies/prisoners-2013",
     "title": "Prisoners",
     "images": ["/images/movies/prisoners.png"],
-    "video": "/videos/arrival.mp4",
+    "video": "/videos/prisoners.mp4",
     "year": 2013,
     "plot": "Prisoners is a tense crime thriller that follows the harrowing story of Keller Dover, played by Hugh Jackman, and Franklin Birch, played by Terrence Howard, whose daughters go missing on Thanksgiving. As the police, led by Detective Loki (Jake Gyllenhaal), investigate the case, the fathers become increasingly desperate and take matters into their own hands. The film delves into themes of morality, justice, and the lengths a person will go to protect their family.",
     "rates": {
@@ -56,7 +56,7 @@
     "link": "https://yts.mx/movies/enemy-2013",
     "title": "Enemy",
     "images": ["/images/movies/enemy.webp"],
-    "video": "/videos/arrival.mp4",
+    "video": "/videos/enemy.mp4",
     "year": 2013,
     "plot": "Enemy is a psychological thriller centered around Adam Bell, played by Jake Gyllenhaal, a college professor who discovers a doppelgänger of himself in a movie. Intrigued by the possibility of another identical person, he becomes obsessed with finding him. As Adam delves deeper into the mystery, the line between reality and illusion blurs, leading to an enigmatic and unsettling conclusion.",
     "rates": {
@@ -69,7 +69,7 @@
     "link": "https://yts.mx/movies/sicario-2015",
     "title": "Sicario",
     "images": ["/images/movies/sicario.webp"],
-    "video": "/videos/arrival.mp4",
+    "video": "/videos/sicario.mp4",
     "year": 2015,
     "plot": "In Sicario, Emily Blunt stars as FBI agent Kate Macer, who joins a government task force led by the mysterious Matt Graver, played by Josh Brolin. The task force aims to combat the escalating drug war on the US-Mexico border. As Kate becomes embroiled in the dark and morally ambiguous operations, she grapples with her principles and must confront the harsh realities of the drug trade.",
     "rates": {
