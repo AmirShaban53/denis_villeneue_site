@@ -11,6 +11,7 @@ const History = () => {
               controls
               src="https://res.cloudinary.com/dfhaybv2w/video/upload/v1690887321/denis%20villeneue/intro_qyz0ut.mp4"
               className="h-full object-contain"
+              
             />
           </div>
           <div className="col-span-12 md:col-span-6">

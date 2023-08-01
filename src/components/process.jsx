@@ -48,11 +48,13 @@ const Card = ({ title, content, image }) => {
         <div>
           <img
             src={image}
+            alt="image of process"
             className="duration-700 transition-all h-full object-cover rounded-lg"
           />
           <div className="absolute top-0 -z-30 mix-blend-lighten blur-xl">
             <img
               src={image}
+              alt="blurred bg"
               className=" duration-1000 transition-all h-full object-cover -z-50"
             />
           </div>

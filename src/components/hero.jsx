@@ -14,6 +14,7 @@ const Hero = () => {
         <img
           src="/images/bg.webp"
           className="animate h-full md:h-auto object-bottom  object-cover"
+          alt="denis giving directions of action in enemy"
         />
       </div>
       <Container>

@@ -84,13 +84,14 @@ const CaseCard = ({ image, video, title, handleOpenModal, target }) => {
         </p>
       </div>
       <img
-        src={image ? image : "/blade.webp"}
+        src={image}
+        alt="thumbnail of movie"
         className="duration-700 transition-all h-full object-cover relative z-10"
       />
       <video
         className="absolute top-0 left-0 z-0 group-hover:z-20 h-full object-cover"
         ref={videoRef}
-        src={video ? video : "/video.mp4"}
+        src={video}
         poster={image}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

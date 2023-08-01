@@ -84,18 +84,23 @@ const CharacterCard = (props) => {
   return (
     <div
       ref={cardRef}
-
       className="col-span-3 basis-1/2 md:basis-1/4 aspect-square group overflow-hidden relative"
     >
       <img
         src={props.image ? props.image : "/actor.jpg"}
+        alt={`image of actor`}
         className="duration-700 transition-all h-full w-full d object-cover relative z-10 grayscale group-hover:grayscale-0 group-hover:scale-105"
       />
       <div className="absolute hidden top-0 left-0 z-20 d h-full w-full  group-hover:flex items-end p-2 duration-700 transition-all">
-        <a href={props.wiki} target="_blank" rel="noopener noreferrer" className="border-b">
+        <a
+          href={props.wiki}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border-b"
+        >
           <p className="opacity-0 group-hover:opacity-100 duration-700 transition-all font-bold text-lg ">
             {props.name}
-            <Launch className="text-sm"/>
+            <Launch className="text-sm" />
           </p>
         </a>
       </div>
