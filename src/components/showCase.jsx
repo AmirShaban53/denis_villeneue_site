@@ -27,7 +27,7 @@ const ShowCase = () => {
   };
 
   return (
-    <div className="py-16">
+    <div className="py-16" id="showcase">
       <ContainerFluid>
         <Container>
         <div className="mb-6">

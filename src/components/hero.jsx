@@ -5,7 +5,10 @@ import { wordVar, staggerChildrenVar } from "../assets/animation";
 
 const Hero = () => {
   return (
-    <div className="overflow-hidden h-[75vh] md:h-screen relative z-10">
+    <div
+      id="home"
+      className="overflow-hidden h-[75vh] md:h-screen relative z-10"
+    >
       <div className="absolute top-0 h-full -z-10">
         <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-zinc-900 to-transparent to-80% z-10"></div>
         <img
@@ -35,9 +38,7 @@ export default Hero;
 
 const AnimateTitle = ({ title }) => {
   return (
-    <motion.span
-      variants={staggerChildrenVar}
-    >
+    <motion.span variants={staggerChildrenVar}>
       {title.split(" ").map((word, index) => {
         return (
           <div key={index} className="inline-block overflow-hidden">

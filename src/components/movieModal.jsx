@@ -9,6 +9,7 @@ const MovieModal = ({
   images,
   year,
   plot,
+  link,
   handleCloseModal,
 }) => {
   return (
@@ -32,7 +33,7 @@ const MovieModal = ({
             />
           </div>
           <div className="p-6">
-            <ModalHeader title={title} year={year} link={"/"} />
+            <ModalHeader title={title} year={year} link={link} />
             <FilmRates rates={rates} />
 
             <div>

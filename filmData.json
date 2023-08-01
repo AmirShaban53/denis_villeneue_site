@@ -1,5 +1,6 @@
 [
   {
+    "link": "https://yts.mx/movies/blade-runner-2049-2017",
     "title": "Blade Runner 2049",
     "images": ["/images/movies/blade.webp"],
     "video": "/videos/blade runner.mp4",
@@ -13,6 +14,7 @@
   },
 
   {
+    "link": "https://yts.mx/movies/dune-2021",
     "title": "Dune",
     "images": ["/images/movies/dune.webp"],
     "video": "/videos/dune.mp4",
@@ -25,6 +27,7 @@
     }
   },
   {
+    "link": "https://yts.mx/movies/prisoners-2013",
     "title": "Prisoners",
     "images": ["/images/movies/prisoners.png"],
     "video": "/videos/arrival.mp4",
@@ -37,6 +40,7 @@
     }
   },
   {
+    "link": "https://yts.mx/movies/arrival-2016",
     "title": "Arrival",
     "images": ["/images/movies/arrival.webp"],
     "video": "/videos/arrival.mp4",
@@ -49,6 +53,7 @@
     }
   },
   {
+    "link": "https://yts.mx/movies/enemy-2013",
     "title": "Enemy",
     "images": ["/images/movies/enemy.webp"],
     "video": "/videos/arrival.mp4",
@@ -61,6 +66,7 @@
     }
   },
   {
+    "link": "https://yts.mx/movies/sicario-2015",
     "title": "Sicario",
     "images": ["/images/movies/sicario.webp"],
     "video": "/videos/arrival.mp4",

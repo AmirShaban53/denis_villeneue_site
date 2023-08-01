@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { cardImage, cardText } from "../assets/animation";
 const Process = () => {
   return (
-    <div className="py-16">
+    <div className="py-16" id="process">
       <Container>
         <div className="mb-6">
           <p className="text-3xl font-bold">

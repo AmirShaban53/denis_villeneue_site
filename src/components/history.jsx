@@ -3,11 +3,15 @@ import { Container } from "./layout";
 
 const History = () => {
   return (
-    <div className="py-16">
+    <div className="py-16" id="history">
       <Container>
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 md:col-span-6 ">
-            <video controls src="/videos/intro.mp4" className="h-full object-contain"/>
+            <video
+              controls
+              src="/videos/intro.mp4"
+              className="h-full object-contain"
+            />
           </div>
           <div className="col-span-12 md:col-span-6">
             <p className="mb-3 text-2xl md:text-4xl font-semibold">
